@@ -47,7 +47,7 @@ const { addMetadata } = require('./lib/exif.js')
 const vcard = 'BEGIN:VCARD\n' 
             + 'VERSION:3.0\n' 
             + 'FN: Light🤙🏻\n' 
-            + 'ORG:Creador De FX-BOT-V72\n' 
+            + 'ORG:Creador De light-BOT-V72\n' 
             + 'TEL;type=CELL;type=VOICE;waid=33622007411:+33 6 22 00 74 11\n' 
             + 'END:VCARD'
 //WhatsApp Conexión
@@ -1560,7 +1560,7 @@ case prefix+ 'play':
     FxBot.sendMessage(from, options, text, { quoted: mek } )
 				break
 case prefix+ 'creador':
-await FxBot.sendMessage(from, {displayname: "Félix🧙‍♂️", vcard: vcard}, MessageType.contact)
+await FxBot.sendMessage(from, {displayname: "light🧙‍♂️", vcard: vcard}, MessageType.contact)
 break
 				
      default:
